@@ -1,10 +1,15 @@
+//Project: Kotlin Quiz
+//Purpose: Codecademy Kotlin Class Project
+//Author: Elisa Aldridge
+
 fun main() {
-    val quizAnswer1 = 15
+    val quizAnswer1 = 15                //answers
     var quizAnswer2 = 3
     val quizAnswer3 = "isosceles"
     val quizAnswer4 = 47
 
-    println("What is 75 / 5?");
+    //Quiz
+    println("What is 75 / 5?");                 
     val studentAnswer1 = Integer.valueOf(readLine());
    
     println("Solve for y: 6 * 2y = 36");
@@ -15,8 +20,9 @@ fun main() {
   
     println("What is the value of the equation: 8 * 6 - (3 - 2)");
     val studentAnswer4 = Integer.valueOf(readLine());
-  
-    var points = 0;
+    //End quiz
+
+    var points = 0;     //grading container
   
     if (studentAnswer1 == quizAnswer1) {
       points =+ 25;
